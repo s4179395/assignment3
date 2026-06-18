@@ -18,6 +18,12 @@
 {
     font-weight: 1;
     text-align: center;
+    font-size: 30;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
     
 }
 .chooser
@@ -54,4 +60,10 @@ color: white;
     line-height: 30px;
     color: white;
 
+}
+
+.images
+{
+
+    width: 600px;
 }
