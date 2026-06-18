@@ -181,50 +181,55 @@ it allows the player to feel like their decisions will effect the outcome of the
 /*There are three versions of the room with 4 doors, as there are three combinations of how  */
 {
     choice: "now head down",
-    image: "room2.png",
+    image: "4doors.png",
     prompt: "You reach the bottom of the trip and exit the elevator. You look forward and see 4 doors, and a note that says “final puzzle”. Door 1 is made of wood, seems a bit run down and barely able to stand together. Door 2 is made of a thick metal and seems like it'd be a hassle to open, door 3 is locked shut with a keyhole needed to enter it and door 4 has a hole next to the handle that seems like it needs something to fit in it. The voice echoes “this is your final choice you need to escape”. What door do you choose? You have access to Door 1, 2 and 3.",
     options: ["Door 1", "Door 2", "Door 3"],
     images: "inventory1doorkey.png"
 },
 {
     choice: "now go down",
-    image: "room2.png",
+    image: "4doors.png",
     prompt: "You reach the bottom of the trip and exit the elevator. You look forward and see 4 doors, and a note that says “final puzzle”. Door 1 is made of wood, seems a bit run down and barely able to stand together. Door 2 is made of a thick metal and seems like it'd be a hassle to open, door 3 is locked shut with a keyhole needed to enter it and door 4 has a hole next to the handle that seems like it needs something to fit in it. The voice echoes “this is your final choice you need to escape”. What door do you choose? You have access to Door 1, 2, 3 and 4.",
     options: ["Door 1", "Door 2", "Door 3", "Door 4"],
-    images: "4doors.png"
+    images: "inventory2doorkey.png"
 },
 {
     choice: "Go down",
-    image: "room2.png",
+    image: "4doors.png",
     prompt: "You reach the bottom of the trip and exit the elevator. You look forward and see 4 doors, and a note that says “final puzzle”. Door 1 is made of wood, seems a bit run down and barely able to stand together. Door 2 is made of a thick metal and seems like it'd be a hassle to open, door 3 is locked shut with a keyhole needed to enter it and door 4 has a hole next to the handle that seems like it needs something to fit in it. The voice echoes “this is your final choice you need to escape”. What door do you choose? You have access to Door 1 and 2.",
     options: ["Door 1", "Door 2"],
-    images: "4doors.png"
+    images: "inventoryempty.png"
 },
 /* I don't give any options at the end here as I want it to be clear its a proper ending, making the audienxce have to refresh the page*/
 {
     choice: "Door 1",
     image: "ending1.png",
     prompt: "Door 1 leads to an empty room with a singular door. No answers are given. It feels like everything you’ve worked towards during this journey will amount to just an escape with no answers. Regardless you are thankful to have finally escaped. You open the door and make your way out.",
-    options: [""]
+    options: [""],
+    images: "inventoryempty.png"
 },
 {
     choice: "Door 2",
     image: "ending2.png",
     prompt: "Door 2 opens to a room that has images of all the rooms you’ve visited, they all look similar to a degree when looking at them all together, almost like they were based on a template. At the end of the room is a door, you use it to escape.",
-    options: [""]
+    options: [""],
+    images: "inventoryempty.png"
 },
 {
     choice: "Door 3",
     image: "ending3.png",
     prompt: "This door opens to a room that has a mirror. When you look in the mirror you realise you have no face. No defining features. It’s almost like you’re not even a real person. This sends you into a spiral. You never escape.",
-    options: [""]
+    options: [""],
+    images: "inventoryempty.png"
 },
 {
     choice: "Door 4",
     image: "ending4.png",
     prompt: "The door opens to a black void. There is just one aspect of floating text that says “work in progress” you begin to look at your hands and you realise you don’t look… real. That’s when it dawns on you. Everything in this world is simplistic, pixelated. You are not real. None of this is. This has all been. For nothing.",
-    options: [""]
+    options: [""],  
+    images: "inventoryempty.png"
 },
+    /* this was the base I edited over when creating new paths */
 {
     choice: "base",
     image: "room2.png",
