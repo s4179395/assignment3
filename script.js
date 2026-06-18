@@ -165,14 +165,14 @@ it allows the player to feel like their decisions will effect the outcome of the
     images: "inventory2doorkey.png"
 },
 {
-    choice: "continue to look around",
+    choice: "continue looking around",
     image: "emptyroom.png",
     prompt: "You continue looking for some reason I the creator can’t fully understand, and you find nothing and decide to go back down",
     options: ["now go down"],
     images: "inventory2doorkey.png"
 },
 {
-    choice: "continue looking around",
+    choice: "continue to look around",
     image: "emptyroom.png",
     prompt: "You continue looking for some reason I the creator can’t fully understand, and you find nothing and decide to go back down",
     options: ["now head down"],
